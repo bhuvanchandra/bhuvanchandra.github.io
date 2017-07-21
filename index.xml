@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Introduction</title>
+    <link>/</link>
+    <description>Recent content on Introduction</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 19 Jul 2017 08:15:33 +0800</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MicroPython running on NXP VF6XX_M4 core</title>
+      <link>/blog/micropython-running-on-nxp-vf6xx_m4-core/</link>
+      <pubDate>Wed, 19 Jul 2017 08:15:33 +0800</pubDate>
+      
+      <guid>/blog/micropython-running-on-nxp-vf6xx_m4-core/</guid>
+      <description>MicroPython running on NXP VF6XX M4 Core This is an experimental port of MicroPython for NXP VF6XX M4 Core.
+Source code
+Supported features include: - REPL (Python prompt) over UART2. - Garbage collector. - GPIO, UART support.
+Build instructions The tool chain required for the build is the Linaro provided ARM Embedded toolchain, e.g. 4.9 2015 Q3 update. Unpack the toolchain to an appropriate location.
+e.g. your home directory:</description>
+    </item>
+    
+    <item>
+      <title>libsoc examples</title>
+      <link>/blog/libsoc-examples/</link>
+      <pubDate>Thu, 18 May 2017 11:55:50 +0800</pubDate>
+      
+      <guid>/blog/libsoc-examples/</guid>
+      <description>Cross-compiling libsoc: Cross-compiling libsoc examples:        Colibri VF61
+The Colibri VF50 and VF61 are both SODIMM sized computer modules based on the Qualcomm/NXP/Freescale Vybrid embedded System-on-Chip (SoC). The Vybrid SoC features a Cortex-A5 processor supporting a clock frequency of up to 500MHz. The Colibri VF61 additionally features a second Cortex-M4 processor core which can be clocked at up 167MHz maximum.</description>
+    </item>
+    
+    <item>
+      <title>contact</title>
+      <link>/contact/</link>
+      <pubDate>Thu, 09 Mar 2017 13:23:28 +0800</pubDate>
+      
+      <guid>/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>about</title>
+      <link>/about/</link>
+      <pubDate>Thu, 09 Mar 2017 13:19:25 +0800</pubDate>
+      
+      <guid>/about/</guid>
+      <description>I’m interested in electronics, robotics, physics, bicycle trekking, music, drawing and pet-keeping. I was also a member in Scout during my school days, we as a troop did volunteer work during our school events. I have always been good at sports. I like playing volley ball, basket ball and running. I have played in few sports tournaments (volleyball, races) together with my team.
+Computers first appered in my life when I was seven, we used M$-DOS Logo programming language.</description>
+    </item>
+    
+    <item>
+      <title>Knuckles demo application fork from DirectFB examples</title>
+      <link>/blog/knuckles-demo-application-fork-from-directfb-examples/</link>
+      <pubDate>Tue, 02 Feb 2016 11:55:43 +0800</pubDate>
+      
+      <guid>/blog/knuckles-demo-application-fork-from-directfb-examples/</guid>
+      <description>Fork of DirectFb example Knucles, which used in Linux quick boot demo. Source code</description>
+    </item>
+    
+    <item>
+      <title>Understanding Linux LCD display timings</title>
+      <link>/blog/understanding-linux-lcd-display-timings/</link>
+      <pubDate>Tue, 02 Feb 2016 11:55:43 +0800</pubDate>
+      
+      <guid>/blog/understanding-linux-lcd-display-timings/</guid>
+      <description>Mapping LCD/TFT display timings to Linux Kernel data structures Most of the LCD/TFT display datasheets provide the following timing information:
+ Horizontal Back Porch(HBP): Number of pixel clk pulses between HSYNC signal and the first valid pixel data. Horizontal Front porch(HFP): Number of pixel clk pulses between the last valid pixel data in the line and the next hsync pulse. Vertical back porch(VBP): Number of lines (HSYNC pulses) from a VSYNC signal to the first valid line.</description>
+    </item>
+    
+    <item>
+      <title>Point of Sale example application with GTK&#43; and Glade</title>
+      <link>/blog/point-of-sale-example-application-with-gtk--and-glade/</link>
+      <pubDate>Tue, 02 Feb 2016 11:55:32 +0800</pubDate>
+      
+      <guid>/blog/point-of-sale-example-application-with-gtk--and-glade/</guid>
+      <description> POS Demo Point of sale demo applicaiton example with GTK+ and Glade running on Toradex Apalis/Colibri System On Modules.
+Source Code available at: pos-demo </description>
+    </item>
+    
+    <item>
+      <title>Configuring Embedded Linux machine as WiFi Hotspot</title>
+      <link>/blog/configuring-embedded-linux-machine-as-wifi-hotspot/</link>
+      <pubDate>Fri, 13 Jun 2014 11:55:43 +0800</pubDate>
+      
+      <guid>/blog/configuring-embedded-linux-machine-as-wifi-hotspot/</guid>
+      <description>Configuring Embedded Linux machine as WiFi Hotspot Test Setup:  Colibri VF61 V1.1A Colibri Evaluation Board V3.1a/Iris V1.1 Ambicom WL250N-USB Wireless 802.11b/g/n (V1.0a)  During boot or upon insertion the following kernel messages identify Ambicom WL250N-USB stick: [ 10.153746] usb 1-1.1: new high speed USB device number 3 using fsl-ehci [ 10.299135] usb 1-1.1: New USB device found, idVendor=148f, idProduct=3070 [ 10.309882] usb 1-1.1: New USB device strings: Mfr=1, Product=2, SerialNumber=3 [ 10.</description>
+    </item>
+    
+  </channel>
+</rss>
